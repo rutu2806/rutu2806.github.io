@@ -1,0 +1,161 @@
+body,html
+{
+	margin:0;
+	padding: 0%
+}
+
+.section1
+{
+font:1em "Open Sans", sans-serif;
+background-image: url('dog6.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+  position: absolute;
+ height: 100%;
+ width: 100%;
+}
+
+.content
+{
+	padding:30px;
+}
+
+.nav-main{
+width: 100%;
+background-color:brown;
+height: 65px;
+color: white;
+opacity: 1.5;
+ }
+ 
+ .nav-main .logo{
+ float:left;
+ height: 40px;
+ padding: 15px 700px 15px 60px;
+ font-size:1.4rem;
+ line-height: 35px
+ }
+ 
+ .nav-main > ul {
+ margin:0;
+ padding:0;
+ float:left;
+ list-style-type: none }
+ 
+ .nav-main > ul > li {
+ float:left;
+ }
+ 
+ .nav-item{
+display:list-item;
+padding:15px 30px;
+height: 35px;
+line-height:35px;
+color:white;
+text-decoration: none;
+ }
+
+.nav-item:hover{
+background-color:black;
+}
+
+.nav-content{
+position: absolute;
+top: 70px;
+overflow:hidden;
+background-color: black;
+max-height: 0px;
+
+ }
+
+ .nav-content a{
+ color: #fff;
+ text-decoration:none;}
+ 
+ .nav-content a:hover{
+ text-decoration: underline;}
+ 
+ .nav-sub{
+ padding:0px;
+ margin:0px;
+ list-style-type:none;
+ }
+ 
+ .nav-sub ul li a{
+ display:inline-block;
+ padding:5px 0px;
+ list-style-type:none;
+ }
+ 
+.nav-item:focus{
+background-color:#444;
+
+ }
+ 
+ .nav-item:focus ~ .nav-content{
+ 	max-height: 500px;
+ 	
+ 	-webkit-transition:max-height 0.4s ease-in;
+ 	-moz-transition:max-height 0.4s ease-in;
+ 	transition:max-height 0.4s ease-in;
+ 	
+ }
+ 
+ .ul1
+ {
+ 	list-style-type:none;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+ 	
+ }
+ 
+ /*slider*/
+ #sec1{
+ display: flex;
+flex-direction:row;
+ padding: 80px;
+ height:500px;
+color: white;
+font-size:30px;
+font-family: Castellar, sans-serif;
+text-align: center;
+}
+ align-items: center;
+ }
+ 
+ #sec1::before{
+ content: "";
+ 
+ z-index: -1;
+ 
+ }
+ 
+ .center{
+    
+    color: white;
+    padding-top: 720px;
+}
+ footer{
+    background: black;
+    color: white;
+    height:250px;
+ }
+ 
+ #sec2{
+text-align: center;
+
+background-size: 300px;
+  }
+  
+.f1{
+	display:flex;
+   flex-direction:row;
+    padding: 3px 50px;
+      
+       justify-content:center;
+       align-items: center;
+ }
+ 
+ .h33{
+ font-family: "Open Sans", sans-serif;
+ }

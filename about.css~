@@ -1,0 +1,35 @@
+body{
+    background-image:url('bg2.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.box{
+    width: 500px;
+    height: 600px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    transform: translate(-50%-50%);
+    background: #471f1f;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.box h1{
+    color:white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.contentbox
+{
+    color:white;
+    font-size: 25px;
+}
+
+.aboutname
+{
+font-family: calibiri;
+}
